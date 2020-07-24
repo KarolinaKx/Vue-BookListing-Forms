@@ -25,6 +25,8 @@ export default {
         { title: "Amusing Ourselves to Death", author: "Neil Postman", finishedReading: true, ownership: "borrowed"}
       ],
       filters: ["bought", "borrowed"],
+      holding: "bought",
+      
     };
   },
   components: {
