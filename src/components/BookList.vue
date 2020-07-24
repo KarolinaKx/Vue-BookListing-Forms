@@ -2,6 +2,8 @@
   <div>
     <h1>{{title}}</h1>
     <ul>
+    <hr>
+    <h2>Filtered Books by Ownership</h2>
       <book-item v-for='book in books' :key='book.id' :book='book'></book-item>
     </ul>
     <br><hr>
