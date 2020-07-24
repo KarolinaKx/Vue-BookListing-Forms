@@ -22,7 +22,7 @@ export default {
       books: [
         { finishedReading:"true" },
         { finishedReading: false },
-        { fibnishedReading: true }
+        { finishedReading: true }
       ]
     };
   },
