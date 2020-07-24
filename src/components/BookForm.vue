@@ -5,6 +5,8 @@
     <button type="submit" name="button">Add Book</button>
     <div>
       <input v-model=.../bookData.finishedReading type="checkbox">
+      <input v-model=".../bookData.ownership" value="borrowed" type="radio">
+      <input v-model=".../bookData.ownership" value="bought" type="radio">
     </div>
   </form>
 </template>
