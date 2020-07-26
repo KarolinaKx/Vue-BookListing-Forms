@@ -35,6 +35,8 @@ export default {
       ],
       filters: ["bought", "borrowed"],
       holding: "bought",
+      searchInput: "",
+      
 
     };
   },
