@@ -1,6 +1,7 @@
 <template>
   <div>
     <h1>{{title}}</h1>
+    <input type="text" placeholder="Search Books" v-model="searchInput">
     <ul class="exists">
       <book-item v-for='book in books' :key='book.id' :book='book'></book-item>
     </ul>
@@ -36,7 +37,7 @@ export default {
       filters: ["bought", "borrowed"],
       holding: "bought",
       searchInput: "",
-      
+
 
     };
   },
